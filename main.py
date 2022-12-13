@@ -95,5 +95,4 @@ if __name__ == '__main__':
     parser.add_argument('--validation_size', help='Set a validation size, if needed', type=float, default=0)
     parser.add_argument('--eval_every', type=int, default=1)
     parser.add_argument('--mp', action='store_true', help='Use if you want to use multiprocessing (if fraction > 0)')
-    print("sdsdsdsd")
     main1(parser.parse_args())
